@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="pl"> 
+	<head>
+		<meta charset="utf-8"/>
+		<meta name=viewport content="width=devide-width, initial-scale=1">
+		<title>16-kowy kalkulator</title>
+		<link rel="stylesheet" href="resetstyle.css"/>
+		<link rel="stylesheet" href="style.css"/>
+		<script src="systemy.js"></script>
+		
+	</head>
+
+	<body>
+		<nav class="nav-main">
+			<div class="btn-tgl" onclick="tgnav();res();"></div>
+			<ul>
+             <li><a href="index.html">Strona główna</a></li>			
+			 <li><a href="2.html">Dwójkowy</a></li>
+			 <li><a href="3.html">Trójkowy</a></li>
+			 <li><a href="5.html">Piątkowy</a></li>
+			 <li><a href="7.html">Siódemkowy</a></li>
+			 <li><a href="8.html">Ósemkowy</a></li>
+			 <li><a href="9.html">Dziewiątkowy</a></li>
+			 <li><a href="10.html">Decymalny</a></li>
+			 <li><a href="16.html">Szesnastkowy</a></li>			 
+			</ul> 
+		</nav>	
+		
+		<aside class="nav-side">
+		  <ul>
+		     <li><span>Kalkulatory</span></li>
+			 <li><a href="2k.html">Dwójkowy</a></li>
+			 <li><a href="3k.html">Trójkowy</a></li>
+			 <li><a href="5k.html">Piątkowy</a></li>
+			 <li><a href="7k.html">Siódemkowy</a></li>
+			 <li><a href="8k.html">Ósemkowy</a></li>
+			 <li><a href="9k.html">Dziewiątkowy</a></li>
+			 <li><a href="16k.html">Szesnastkowy</a></li>
+			</ul> 
+		</aside>
+		<div class="main1">
+            
+		<h1>kalkulator</h1>
+        
+		<label for="binin"> Podaj wartość szestnatkową:  </label>
+		<input type="text" name="binin" id="binin" title="Wartość szesnastkowa"/>
+		<label for="decout"> Wartość dziesiętna:  </label>
+		<input type="text" name="decout" id="decout" title="Wartość dziesiętna"/>
+		<button onclick="mateusz_kocham_cie()">Przelicz</button>
+         
+        <h2></h2>
+        <label for="decin"> Podaj wartość dziesiętną:  </label>
+		<input type="number" name="decin" id="decin" title="Wartość dziesiętna"/>
+		<label for="binout"> Wartość szesnastkowa:  </label>
+		<input type="text" name="binout" id="binout" title="Wartość szesnastkowa"/>
+		<button onclick="zamiana()">Przelicz</button>
+		</div>
+	</body>
+</html>
